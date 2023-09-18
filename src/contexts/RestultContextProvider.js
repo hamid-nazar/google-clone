@@ -4,7 +4,7 @@ import axios from "axios";
 const ResultContext = createContext();
 const baseUrl = "https://google-search74.p.rapidapi.com/?limit=40&q=";
 
-const key = "r8iCFTmiB5dd11HXYEWnhOB2eaniLj4dvG4q1rXUoWg";
+const key = process.env.API_KEY;
 
 // ?page=1&query${queryString}&client_id=${url}
 const url = "https://api.unsplash.com";
