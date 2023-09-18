@@ -1,9 +1,8 @@
-# A dummy google clone built with React
+# A dummy google clone built with React and Google Search API from RapidAPI
 
 ## live Demo
 
 ![](./public/demo1.png)
-![](./public/demo2.png)
 
 ## Getting started 🚀
 
@@ -14,3 +13,10 @@
 ## Functionalities
 
 The functionalities are very limited
+
+## Tech stack
+
+- React
+- Tailwind
+- Google Search API
+- Unsplash Image API

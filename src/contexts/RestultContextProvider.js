@@ -4,7 +4,7 @@ import axios from "axios";
 const ResultContext = createContext();
 const baseUrl = "https://google-search74.p.rapidapi.com/?limit=40&q=";
 
-const key = process.env.API_KEY;
+const key = process.env.API_KEY1;
 
 // ?page=1&query${queryString}&client_id=${url}
 const url = "https://api.unsplash.com";
@@ -26,8 +26,7 @@ export function ResultContextProvider({ children }) {
       response = await fetch(`${baseUrl}${type}`, {
         method: "GET",
         headers: {
-          "X-RapidAPI-Key":
-            "f310996da3mshea35cc6137fcd96p1489f7jsnab61213b6fe1",
+          "X-RapidAPI-Key": `${process.env.API_KEY2}`,
           "X-RapidAPI-Host": "google-search74.p.rapidapi.com",
         },
       });
